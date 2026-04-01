@@ -1,102 +1,103 @@
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/Deque.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/List.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/Map.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/Queue.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/Set.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/SimpleMap.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/Stack.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/df/ColumnAggregate.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/df/DataFrame.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/df/DataFrameGroupBy.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/df/Series.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/df/SeriesGroupBy.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/functional/Accumulator.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/functional/AggregateFunction.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/functional/PairwiseOperator.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/functional/PrefixOperator.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/functional/ValueMapper.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/nn/NeuralNetwork.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/api/nn/Neuron.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/ArrayDequeExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/ArrayListExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/ArrayQueueExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/ArrayStackExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/CircularArrayExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/DataFrameDemo.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/DataFrameExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/DigitNetworkAccuracy.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/DigitRecognizerDemo.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/DoublyLinkedNodeExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/LinkedDequeExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/LinkedListExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/LinkedNodeExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/LinkedQueueExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/LinkedStackExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/SimpleHashMapExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/SimpleUnsortedMapExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/SortedArrayListExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/examples/TreeExample.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc01.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc02.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_A.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_B.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_C_1.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_C_2.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_D_1.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_E.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_F.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_G.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_H.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_I_1.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_I_2.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_J_1.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_K.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_L.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc03_M.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc04_A_1.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc04_A_2.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc04_B.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc05_A.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc05_B.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/exerc/Exerc05_C.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/ArrayDeque.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/ArrayList.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/ArrayQueue.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/ArrayStack.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/BinaryTreeNode.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/DoublyLinkedNode.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/HashMap.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/HashSet.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/ImmutableList.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/LinkedDeque.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/LinkedList.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/LinkedNode.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/LinkedQueue.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/LinkedStack.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/NaryTreeNode.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/SimpleHashMap.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/SimpleUnsortedMap.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/SortedArrayList.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/df/DataFrameGroupByImpl.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/df/DataFrameImpl.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/df/SeriesGroupByImpl.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/df/SeriesImpl.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/nn/DigitsDataset.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/nn/HiddenNeuron.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/nn/InputNeuron.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/nn/LinearNeuron.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/impl/nn/SimpleNeuralNetwork.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/ui/DigitCanvas.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/ui/DigitPredictorUI.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/util/NNLoader.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/util/Util.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/Annotations.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/ArrayIndex.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/Children.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/Graph.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/Left.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/ListNode.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/Next.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/Right.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/TreeNode.java
-/Users/poorani/Documents/Classes/cs2725/Projects/Project 3/CodeFiles/src/main/java/cs2725/viz/Value.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/Deque.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/List.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/Map.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/Queue.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/Set.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/SimpleMap.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/Stack.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/df/ColumnAggregate.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/df/DataFrame.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/df/DataFrameGroupBy.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/df/Series.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/df/SeriesGroupBy.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/functional/Accumulator.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/functional/AggregateFunction.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/functional/PairwiseOperator.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/functional/PrefixOperator.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/functional/ValueMapper.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/nn/NeuralNetwork.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/api/nn/Neuron.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/ArrayDequeExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/ArrayListExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/ArrayQueueExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/ArrayStackExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/CircularArrayExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/DataFrameDemo.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/DataFrameExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/DigitNetworkAccuracy.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/DigitRecognizerDemo.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/DoublyLinkedNodeExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/LinkedDequeExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/LinkedListExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/LinkedNodeExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/LinkedQueueExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/LinkedStackExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/SimpleHashMapExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/SimpleUnsortedMapExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/SortedArrayListExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/examples/TreeExample.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc01.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc02.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_A.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_B.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_C_1.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_C_2.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_D_1.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_E.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_F.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_G.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_H.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_I_1.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_I_2.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_J_1.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_K.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_L.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc03_M.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc04_A_1.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc04_A_2.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc04_B.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc05_A.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc05_B.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/exerc/Exerc05_C.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/ArrayDeque.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/ArrayList.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/ArrayQueue.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/ArrayStack.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/BinaryTreeNode.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/DoublyLinkedNode.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/HashMap.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/HashSet.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/ImmutableList.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/LinkedDeque.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/LinkedList.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/LinkedNode.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/LinkedQueue.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/LinkedStack.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/NaryTreeNode.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/SimpleHashMap.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/SimpleUnsortedMap.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/SortedArrayList.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/df/DataFrameGroupByImpl.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/df/DataFrameImpl.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/df/SeriesGroupByImpl.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/df/SeriesImpl.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/nn/DigitsDataset.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/nn/HiddenNeuron.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/nn/InputNeuron.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/nn/LinearNeuron.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/impl/nn/SimpleNeuralNetwork.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/ui/DigitCanvas.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/ui/DigitPredictorUI.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/util/NNLoader.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/util/Util.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/Annotations.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/ArrayIndex.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/Children.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/Graph.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/Left.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/ListNode.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/Next.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/Right.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/TreeNode.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/viz/Value.java
+/Users/poorani/Documents/Repos/networkOCR/neural-network-OCR/CodeFiles/src/main/java/cs2725/web/DigitHttpServer.java
